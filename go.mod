@@ -3,8 +3,8 @@ module github.com/chrislusf/seaweedfs
 go 1.16
 
 require (
-	cloud.google.com/go/pubsub v1.3.1
-	cloud.google.com/go/storage v1.9.0
+	cloud.google.com/go/pubsub v1.30.0
+	cloud.google.com/go/storage v1.29.0
 	github.com/Azure/azure-storage-blob-go v0.9.0
 	github.com/OneOfOne/xxhash v1.2.2
 	github.com/Shopify/sarama v1.23.1
@@ -31,18 +31,16 @@ require (
 	github.com/gocql/gocql v0.0.0-20190829130954-e163eff7a8c6
 	github.com/gogo/protobuf v1.2.2-0.20190730201129-28a6bbf47e48 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e
-	github.com/golang/protobuf v1.4.3
+	github.com/golang/protobuf v1.5.3
 	github.com/google/btree v1.0.0
-	github.com/google/uuid v1.1.1
+	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.7.4
 	github.com/gorilla/websocket v1.4.1 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.1-0.20190118093823-f849b5445de4
-	github.com/grpc-ecosystem/grpc-gateway v1.11.0 // indirect
 	github.com/jcmturner/gofork v1.0.0 // indirect
 	github.com/jinzhu/copier v0.2.8
 	github.com/json-iterator/go v1.1.11
 	github.com/karlseguin/ccache/v2 v2.0.7
-	github.com/klauspost/compress v1.10.9 // indirect
 	github.com/klauspost/cpuid v1.2.1 // indirect
 	github.com/klauspost/crc32 v1.2.0
 	github.com/klauspost/reedsolomon v1.9.2
@@ -63,7 +61,7 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/viper v1.4.0
 	github.com/streadway/amqp v0.0.0-20200108173154-1c71cc93ed71
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.8.3
 	github.com/syndtr/goleveldb v1.0.0
 	github.com/tecbot/gorocksdb v0.0.0-20191217155057-f0fad39f321c
 	github.com/tidwall/gjson v1.3.2
@@ -80,16 +78,15 @@ require (
 	gocloud.dev v0.20.0
 	gocloud.dev/pubsub/natspubsub v0.20.0
 	gocloud.dev/pubsub/rabbitpubsub v0.20.0
-	golang.org/x/image v0.0.0-20200119044424-58c23975cae1 // indirect
-	golang.org/x/net v0.0.0-20201202161906-c7110b5ffcbb
-	golang.org/x/sys v0.0.0-20210603081109-ebe580a85c40
-	golang.org/x/tools v0.0.0-20201124115921-2c860bdd6e78
-	google.golang.org/api v0.26.0
-	google.golang.org/grpc v1.29.1
-	google.golang.org/protobuf v1.26.0-rc.1
+	golang.org/x/net v0.9.0
+	golang.org/x/sys v0.7.0
+	golang.org/x/tools v0.7.0
+	google.golang.org/api v0.114.0
+	google.golang.org/grpc v1.56.3
+	google.golang.org/protobuf v1.30.0
 	gopkg.in/jcmturner/goidentity.v3 v3.0.0 // indirect
 	gopkg.in/jcmturner/gokrb5.v7 v7.3.0 // indirect
-	modernc.org/sqlite v1.10.7
+	modernc.org/sqlite v1.18.1
 )
 
 // replace github.com/seaweedfs/fuse => /Users/chris/go/src/github.com/seaweedfs/fuse
